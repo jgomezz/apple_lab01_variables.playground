@@ -14,10 +14,11 @@ let resta = c - d
 let division = a / Double(c)   //
 var multiplicacion = Int(b) * c
 let validaSuma = e == "X" ? suma : Double(resta)
-multiplicacion = 12.5
-let saludo = hola + hola2 + " su nota es  \(suna)"
+multiplicacion = Int(12.5)
+let hola2 = "Bienvenido"
+let saludo = hola + hola2 + " su nota es  \(suma)"
 print(saludo)
-let extras = saludo + "  + bono de " + regalo + " e " + ( suna + regalo)
+let extras = saludo + "  + bono de " + regalo + " e " + ( String(suma) + regalo)
 print(extras)
 
 
