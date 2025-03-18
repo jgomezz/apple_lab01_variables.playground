@@ -9,11 +9,11 @@ let c:Int = 10
 let d:Int = 2
 let e:Character = "X"
 let f:Bool = true
-let suna = a + b
+let suma = a + b
 let resta = c - d
-let division = a / c
-var multiplicacion = b * c
-let validaSuma = e == "X" ? suma : resta
+let division = a / Double(c)   //
+var multiplicacion = Int(b) * c
+let validaSuma = e == "X" ? suma : Double(resta)
 multiplicacion = 12.5
 let saludo = hola + hola2 + " su nota es  \(suna)"
 print(saludo)
